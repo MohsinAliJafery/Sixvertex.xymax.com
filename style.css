@@ -1,0 +1,419 @@
+/* Start Your Project header */
+@font-face { font-family: SharpSans; src: url('assets/fonts/SharpSansBold.otf'); } 
+@font-face { font-family: Cerebrisans; src: url('assets/fonts/CerebriSansBook.ttf'); } 
+
+body{
+    font-family: "Cerebrisans", sans-serif;
+}
+.main-color{
+    color: #F24010;
+}
+#start-your-project-here-btn {
+    display: inline-block;
+    background-color: #F24010;
+    color: white;
+    font-size: small;
+    width: fit-content;
+    white-space: nowrap ;
+    padding: 13px
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100px;
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+.navbar-nav .active{
+    color: #F24010;
+}
+.navbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Cerebrisans", sans-serif;
+    color: #3a3a3a;
+}
+.navbar button span{
+    color: #F24010;
+}
+#navbarSupportedContent {
+    padding: 0;
+    margin: 0;
+}
+#navbar-fluid-container {
+    padding: 0;
+}
+.navbar-collapse ul li{
+    white-space:nowrap;
+    list-style-type: none;
+}
+.navbar-collapse ul li a{
+    color: #3a3a3a;;
+    text-decoration: none;
+}
+
+.navbar-collapse ul li a:hover{
+    color: #F24010;
+}
+.header-row div{
+   min-height: 100px;
+}
+
+/* Middle Section After header */
+
+.intro-section {
+    background-image: url(assets/img/man-with-glasses.png);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    padding: 40px;
+}
+
+.intro-section h1{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 90px;
+}
+.contact-paragraph {
+    display: block;
+
+}
+.companies-profiles{
+    background-color: #E7E7E7;
+    height: 150px;
+    line-height: 150px;
+}
+.companies-profiles img{
+    margin: 15px;
+}
+
+/* Services Box */
+.services {
+    padding: 50px 700px 30px 700px;
+}
+.service-box {
+     background-color: #E7E7E7;
+     padding: 10px;
+     padding-top: 40px;
+     height: 350px;
+     text-align: center;
+     margin: 20px;
+}
+.service-box p {
+    line-height: 30px;
+    font-size: 13px;
+    margin: 30px;
+
+}
+.service-box span {
+    color: #F24010;
+    font-weight: bolder;
+}
+.interested-in-working {
+    font-weight: bolder;
+}
+
+/* Digital Lens */
+
+.digital-lens {
+    background-image: url(assets/img/digital-lens.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.digital-lens h2{
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: -50px;
+}
+/* Our Numbers Box */
+.our-numbers {
+    /* display: flex; */
+}
+.our-numbers-box {
+    background-color: #e7e7e7;
+    box-sizing: border-box;
+    padding: 40px;;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: fit-content;
+    display: inline-block;
+    margin-top: -100px;
+}
+.our-numbers-box p{
+    font-size: 14px;
+}
+.our-numbers-box h3{
+    color: #F24010;
+    font-size: 40px;
+}
+.our-numbers-last-text {
+    font-weight: bolder;
+}
+/* Case Studies */
+.case-studies-text p{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.case-studies-text h1{
+    font-size: 50px;
+    line-height: 1.5;
+}
+.case-studies-box-row{
+    padding: 0px 50px;
+}
+.case-studies-box {
+width: 100%;
+background-color: #E7E7E7;
+padding: 10px;
+margin: 10px;
+}
+.case-studies-box p{
+    font-size: 16px;
+}
+.case-studies-box img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.cat-subcat {
+    font-size: 30px;
+    color: #F24010;
+}
+.case-studies-box h3{
+    font-size: 24px;
+}
+.adopting-change {
+    padding: 40px;
+
+}
+
+/* clients-say-heading */
+.clients-say-container {
+    background-color: #E7E7E7;
+}
+.clients-say-heading h1{
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 10px
+}
+.clients-say-heading p {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+}
+.testimonials {
+    background-color: white;
+    font-family: Cerebrisans;
+    height: fit-content;
+    padding: 20px;
+    margin: 40px 0px 40px 40px;
+}
+.testimonials h3 {
+    font-size: 1.25em;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+.testimonials p {
+    font-size: 1.25em;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.testimonials img {
+    width: 100px;
+    height: 100px;
+}
+.image-of-person {
+    display: flex;
+    justify-items: center;
+}
+.testimonials-person-name {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 5px;
+}
+
+/* blog-news-text */
+
+.blog-news-text p, .blog-news-text h1{
+font-family: "Sharpsans", sans-serif;
+display: block;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.blog-news-text h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.blog-news-text p {
+    font-size: 20px;
+}
+.latest-posts {
+
+    width: 100%;
+    border: 1px solid #E7E7E7;
+    font-family: SharpSans;
+    padding-bottom: 14px;
+    margin-bottom: 70px;
+}
+.latest-posts img {
+    width: 100%;
+}
+.latest-posts p{
+    font-size: 14px;
+}
+.latest-posts h1 {
+    font-size: 27px;
+    font-weight: 600;
+}
+.latest-posts h1, .latest-posts p, .latest-posts span {
+    padding: 10px;
+}
+.date {
+    margin: 0;
+    padding: 0;
+}
+.continue-reading {
+    text-decoration: underline;
+    font-size: 9px;
+}
+
+/* Contact Us */
+
+.contact-us{
+    background-image: url(assets/img/map.png);
+    background-size: cover;
+    font-family: Sharpsans;
+    background-position: center;
+    padding: 20px;
+    margin: 20px;
+}
+.contact-us select {
+    background-color: #E7E7E7;
+}
+.contact-us textarea {
+    background-color: #E7E7E7;
+    height: 150px;
+}
+.contact-us input {
+    background-color: #E7E7E7;
+    width: 48%;
+    display: inline-block;
+    
+}
+.contact-us input[type=tel]{
+    width: 100%;
+}
+.contact-us input[type=email]{
+    float: right;
+}
+
+.contact-us p {
+    font-size: 12px;
+}
+.contact-us button {
+    background-color: #F24010;
+    color: white;
+}
+.contact-us-phone p{
+font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    padding: 50px;
+}
+.footer h4{
+
+    color: #F24010;
+}
+.footer-logo img{
+margin: 10px;
+}
+.footer p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar ul li a{
+        font-size: small;
+    }
+    .companies-profiles img{
+       width: 40px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .navbar ul li a{
+        font-size: 12px;
+    }
+    .companies-profiles img{
+        width: 50px;
+     }
+     .our-numbers-box {
+        width: 40%;
+        padding: 20px;
+        margin: 20px;
+    }
+    .our-numbers-box p{
+        font-size: 10px;
+    }
+    .our-numbers-box h3{
+        color: #F24010;
+        font-size: 16px;
+    }
+    .case-studies-text p{
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .case-studies-text h1{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .blog-news-text h1{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .blog-news-text p {
+        font-size: 16px;
+    }
+    .case-studies-box p{
+        font-size: 10px;
+    }
+    .case-studies-box h3{
+        font-size: 18px;
+    }
+    .case-studies-box span {
+        font-size: small;
+    }
+    .testimonials h3 {
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 10px 0px;
+    }
+    .testimonials p {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .testimonials img {
+        width: 30px;
+        height: 30px;
+    }
+    .testimonials-person-name {
+        margin-top: 6px;
+        
+    }
+    .image-of-person p{ 
+        font-size: 6px;
+    }
+  }
